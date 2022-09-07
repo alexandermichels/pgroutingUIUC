@@ -1,4 +1,5 @@
 #!/bin/bash
+# original script, deprecated
 PLACE="vermont"
 cd /data
 bzcat ${PLACE}-latest.osm.bz2 > ${PLACE}.osm
