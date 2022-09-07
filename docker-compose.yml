@@ -1,0 +1,17 @@
+version: "3"
+services:
+  pgr:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    restart: always
+    environment:
+      - POSTGRES_USER=alex
+      - POSTGRES_PASSWORD=cybergis
+      - POSTGRES_DB=routing
+      - OSM_PLACE=illinois
+      - OSM_BBOX=-88.34,40.05,-88.14,40.18
+    volumes:
+      - ./data:/data:rw
+      - ./scripts:/scripts:ro
+    network_mode: "host"
