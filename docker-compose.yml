@@ -6,7 +6,7 @@ services:
       dockerfile: ./Dockerfile
     restart: always
     environment:
-      - POSTGRES_USER=alex
+      - POSTGRES_USER=root
       - POSTGRES_PASSWORD=cybergis
       - POSTGRES_DB=routing
       - OSM_PLACE=illinois
