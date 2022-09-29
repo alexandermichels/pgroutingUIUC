@@ -118,15 +118,17 @@ The notebooks assume the variables above, so change at your own risk. If you cho
 
 This step takes a while (a few minutes).
 
-2. Run the notebooks! **It is recommended that you run these notebooks sequentially because some notebooks create views/functions that are used in other later notebooks.
+2. Run the notebooks! **It is recommended that you run these notebooks sequentially because some notebooks create views/functions that are used in other later notebooks.**
 
 * [notebooks/01_Simple_Routing_and_Viz.ipynb](notebooks/01_Simple_Routing_and_Viz.ipynb) - Simple pedestrian routing and visualization.
 * [notebooks/02_Vehicle_Routing.ipynb](notebooks/02_Vehicle_Routing.ipynb) - More complex routing on a vehicle network and routing between lat/lon pairs.
 * [notebooks/03_Functions_and_Multiple_Routing.ipynb](notebooks/03_Functions_and_Multiple_Routing.ipynb) - Using functions, calculating costs, and routing between multiple origin-destination pairs.
+* [notebooks/04_Data_Cleaning.ipynb](notebooks/04_Data_Cleaning.ipynb) - Removing weakly and strongly connected components from the network.
 
 Presentation notebooks (used for GGIS 407 project)
 
 * [pres/ProjectProposalSlides.ipynb](pres/ProjectProposalSlides.ipynb) - a RISE slides presentation of the project for GGIS 407 @ UIUC
+* [pres/ProjectPresentation.ipynb](pres/ProjectPresentation.ipynb) - RISE slides for the final presentation for GGIS 407 @ UIUC
 
 
 
